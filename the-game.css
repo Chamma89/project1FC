@@ -1,0 +1,75 @@
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+
+}
+
+
+.button {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.vertical {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+.horizontal {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+table {
+
+	margin: 0 auto;
+}
+
+.imageX {
+	background-image: url(http://icons.iconarchive.com/icons/iconicon/alpha-magnets/128/Letter-x-icon.png);
+	background-size: 102px;
+	
+}
+
+.imageO {
+	background-image: url(http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/magic-marker-icons-alphanumeric/114584-magic-marker-icon-alphanumeric-letter-o.png);
+	background-size: 102px;
+	
+}
+
+
+.player {
+	text-decoration: underline;
+}
+
+
+
+.p1 {
+	font-size: 20px;
+	float: left;
+	margin-left: 60px;
+	display: block;
+	
+}
+
+.p2 {
+	font-size: 20px;
+	float: right;
+	margin-right: 60px;
+	display: block;
+}	
+
+.p1Score {
+	text-align: center;
+}
+
+.p2Score {
+	text-align: center;
+}
