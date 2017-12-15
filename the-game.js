@@ -101,7 +101,9 @@ function XandO () {
 
 
 	if (!result.includes(" ") ){
-		alert("It's a draw!")
+		player1Win.textContent = "IT'S A DRAW";
+		player2Win.textContent = "IT'S A DRAW";
+
 	}
 	
 	
