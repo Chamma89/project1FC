@@ -11,3 +11,4 @@ After the heavy win/loss logic i provided, it was a challenge to include a draw 
 
 ### Lessons Learned
 I would approach the next project by leaving the CSS till last. Working on the methods and logic of the game. Booleans are crucial and are very useful in the game. 
+

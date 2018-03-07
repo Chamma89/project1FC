@@ -60,6 +60,7 @@ if (game !== false){
 
 }
 
+// loop through the tiles
 
 for(var i = 0; i < 9; i++) {
 			
@@ -68,8 +69,26 @@ for(var i = 0; i < 9; i++) {
 
 }
 
+//reset button
 
+function resetButton (){
+		for(var i = 0 ; i < tiles.length; i++){
 
+			tiles[i].classList.remove('imageO');
+			tiles[i].classList.remove('imageX');
+			result = [" ", " ", " ", " ", " ", " ", " ", " ", " "];
+
+		}	
+
+		player1Win.textContent = "Player 1 Score"
+		player2Win.textContent = "Player 2 Score"
+		winner = true;
+	}
+		
+
+reset.addEventListener('click', resetButton);
+
+// X or O winning logic. 
 
 
 function XandO () {
@@ -99,6 +118,7 @@ function XandO () {
 	}
 
 
+	// draw logic 
 
 	if (!result.includes(" ") ){
 		player1Win.textContent = "IT'S A DRAW";
@@ -109,22 +129,7 @@ function XandO () {
 	
 }
 
-function resetButton (){
-		for(var i = 0 ; i < tiles.length; i++){
 
-			tiles[i].classList.remove('imageO');
-			tiles[i].classList.remove('imageX');
-			result = [" ", " ", " ", " ", " ", " ", " ", " ", " "];
-
-		}	
-
-		player1Win.textContent = "Player 1 Score"
-		player2Win.textContent = "Player 2 Score"
-		winner = true;
-	}
-		
-
-reset.addEventListener('click', resetButton);
 
 
 
